@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refer & Earn - Credit Cards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(to right, #6366f1, #3b82f6);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #111827;
+    }
+    .card p {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+    .button {
+      margin-top: 1rem;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    nav {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #a5b4fc;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .page-section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .page-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    @media(max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Refer & Earn Credit Cards</h1>
+    <p>Promote Multi-Bank Credit Cards and Earn Big Commissions!</p>
+  </header>
+
+  <nav>
+    <a href="#cards">Cards</a>
+    <a href="#ads">Ad View & Earn</a>
+    <a href="#refer">Refer & Earn</a>
+  </nav>
+
+  <section class="container" id="cards">
+    <h2 class="text-2xl font-bold mb-4">Top Credit Cards</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>HDFC Regalia</h3>
+        <p>Earn ₹500 per referral</p>
+        <button class="button" onclick="window.open('https://example.com/hdfc')">Refer Now</button>
+      </div>
+      <div class="card">
+        <h3>SBI SimplyCLICK</h3>
+        <p>Earn ₹400 per referral</p>
+        <button class="button" onclick="window.open('https://example.com/sbi')">Refer Now</button>
+      </div>
+      <div class="card">
+        <h3>ICICI Coral</h3>
+        <p>Earn ₹450 per referral</p>
+        <button class="button" onclick="window.open('https://example.com/icici')">Refer Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="ads">
+    <h2>Watch Ads & Earn</h2>
+    <p>Coming Soon: Watch short ads and earn daily rewards!</p>
+  </section>
+
+  <section class="page-section" id="refer">
+    <h2>Refer & Earn Program</h2>
+    <p>Share your referral link with friends and earn on every successful sign-up!</p>
+  </section>
+</body>
+</html>
